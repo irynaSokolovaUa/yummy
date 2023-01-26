@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid burlywood; */
+}
+
+.logo {
+   width: 80px;
+   height: 80px;
+   /* padding-left: 5px; */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding-top: 30px;
+}
+
+.main-top {
+    width: 575px;
+}
+
+nav a{
+    color: #774E2E;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    margin-left: 50px;
+}
+
+.about {
+    background-image: url(./images/about.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 575px 596px;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 110px;
+    color: #F37F34;
+    line-height: 100%;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+
+}
+
+h1 span,
+.main-top p{
+    color: #774E2E;
+}
+
+.main-top p {
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+    
+}
+
+.selected-items {
+    width: 343px;
+    height: 69px;
+    border: 0;
+    background-color: #774E2E;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.products {
+    background-color: #FFF9EA;
+}
+
+.products .conteiner {
+    padding: 0 0 150px 0;
+}
+
+.products .conteiner h2 {
+    font-size: 72px;
+    color: #F37F34;
+    line-height: 100%;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 150px;
+
+
+
+}
+
+.items span {
+    color: #774E2E;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.items a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.item {
+    width: 370px;
+    height: 462px;
+    background-color: white;
+}
+
+a h3 {
+    color: #673B19;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.5px;
+    margin: 36px 0 15px;
+
+
+}
+
+a p {
+    color: #774E2E;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 0 20px;
+    letter-spacing: 0.5px;
+
+
+}
+
+.advice {
+    background-image: url(./images/advice.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 575px 722px;
+    min-height: 800px;
+    /* padding-top: 150px; */
+
+    
+}
+
+.advice-top{
+    padding: 150px 0 150px 0;
+    line-height: 150%;
+
+    width: 635px;
+}
+
+
+.advice-top h2 span,
+.advice-top p,
+.advice-top li{
+    color: #774E2E;
+}
+
+
+
+.advice-top p {
+    font-size: 16px;
+    padding-right: 20px;
+    line-height: 150%;
+    font-weight: 500;
+
+}
+
+.advice-top h2 {
+    font-size: 72px;
+    color: #F37F34;
+    line-height: 110%;
+    font-weight: bold;
+    text-align: start;
+    margin-top: 0;
+    
+}
+.advice-top h4 {
+    padding-top: 60px 0 20px 0;
+    color: #673B19;
+    margin: 0
+    ;
+}
+
+.advice-top li {
+    line-height: 150%;
+
+}
+
+footer {
+    background-color: #774E2E;
+    /* height: 179px; */
+ 
+    
+}
+
+footer .conteiner {
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+}
+
+footer span {
+    /* padding: 0 0 0 188px; */
+    margin: 0%;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    line-height: 130%;
+
+
+}
+
+.logo2 {
+    width: 99px;
+    height: 99px;
+    padding: 40px 0;
+}
